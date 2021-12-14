@@ -1,0 +1,30 @@
+{
+    "name": "softspring/mime-translatable",
+    "description": "This library extends symfony mailer providing a translatable email",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.4",
+        "symfony/mime": "^4.4 || ^5.3 || ^6.0",
+        "symfony/translation": "^4.4 || ^5.3 || ^6.0",
+        "symfony/twig-bridge": "^4.4 || ^5.3 || ^6.0"
+    },
+    "require-dev": {
+    },
+    "suggest": {
+        "sofspring/mailer-bundle": "Manage and extends application mails in admin",
+        "twig/cssinliner-extra": "Use css inliner",
+        "twig/inky-extra": "Use Inky mailing templates"
+    },
+    "autoload": {
+        "psr-4": {
+            "Softspring\\Component\\MimeTranslatable\\": "src/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "4.0-dev"
+        }
+    }
+}
