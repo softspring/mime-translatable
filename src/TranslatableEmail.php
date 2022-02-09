@@ -12,7 +12,7 @@ class TranslatableEmail extends ExtendedContextEmail
 
     protected TranslatorInterface $translator;
 
-    public function __construct(TranslatorInterface $translator, ?string $locale = null,  Headers $headers = null, AbstractPart $body = null)
+    public function __construct(TranslatorInterface $translator, ?string $locale = null, Headers $headers = null, AbstractPart $body = null)
     {
         parent::__construct($headers, $body);
         $this->translator = $translator;
