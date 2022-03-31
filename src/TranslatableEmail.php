@@ -19,7 +19,7 @@ class TranslatableEmail extends ExtendedContextEmail
         $this->locale = $locale;
     }
 
-    public function subject(string $subject, ?string $domain = null): string
+    public function subject(string $subject, ?string $domain = null)
     {
         $subject = $this->translator->trans($subject, $this->getTranslationParams(), $domain, $this->locale);
 
