@@ -1,6 +1,6 @@
 {
     "name": "softspring/mime-translatable",
-    "description": "This library extends symfony mailer providing a translatable email",
+    "description": "This library extends symfony mime component providing a translatable email",
     "type": "library",
     "license": "MIT",
     "minimum-stability": "dev",

@@ -7,7 +7,7 @@
 [![Total Downloads](https://poser.pugx.org/softspring/mime-translatable/downloads)](https://packagist.org/packages/softspring/mime-translatable)
 [![Build status](https://travis-ci.com/softspring/mime-translatable.svg?branch=master)](https://app.travis-ci.com/github/softspring/mime-translatable)
 
-This library extends symfony mailer providing a translatable email.
+This library extends symfony mime component providing a translatable email.
 
 ## Documentation
 
