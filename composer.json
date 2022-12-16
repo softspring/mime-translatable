@@ -6,7 +6,7 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
-        "php": ">=7.4",
+        "php": ">=8.0",
         "symfony/mime": "^5.4|^6.0",
         "symfony/translation": "^5.4|^6.0",
         "symfony/twig-bridge": "^5.4|^6.0"
