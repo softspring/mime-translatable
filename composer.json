@@ -25,6 +25,7 @@
             "Softspring\\Component\\MimeTranslatable\\": "src/"
         }
     },
-    "extra": {
+    "config": {
+        "sort-packages": true
     }
 }
