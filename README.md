@@ -5,7 +5,7 @@
 [![License](https://poser.pugx.org/softspring/mime-translatable/license.svg)](https://packagist.org/packages/softspring/mime-translatable)
 [![PHP Version Require](http://poser.pugx.org/softspring/mime-translatable/require/php)](https://packagist.org/packages/softspring/mime-translatable)
 [![Total Downloads](https://poser.pugx.org/softspring/mime-translatable/downloads)](https://packagist.org/packages/softspring/mime-translatable)
-[![Build status](https://github.com/softspring/mime-translatable/actions/workflows/php.yml/badge.svg?branch=5.0)](https://github.com/softspring/mime-translatable/actions/workflows/php.yml)
+[![Build status](https://github.com/softspring/mime-translatable/actions/workflows/php.yml/badge.svg?branch=5.1)](https://github.com/softspring/mime-translatable/actions/workflows/php.yml)
 
 This library extends symfony mime component providing a translatable email.
 
