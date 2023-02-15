@@ -1,6 +1,6 @@
 # CHANGELOG
 
-## [4.1.0](https://github.com/softspring/mime-translatable/releases/tag/4.1.0) (07 mar 2022)
+## [v5.0.5](https://github.com/softspring/mime-translatable/releases/tag/v5.0.5)
 
 ### Upgrading
 
@@ -8,10 +8,31 @@
 
 ### Commits
 
-- 5416e34 Remove dev version in composer.json file
-- a587950 Configure new 4.1-dev version to main branch in composer.json file
-- 0be703a Remove dev version in composer.json file
+- [55dc43a](https://github.com/softspring/mime-translatable/commit/55dc43a49e66eb8ab4641164cbab2143da18f195): Update changelog
 
 ### Changes
 
-*Nothing has changed since last 4.0 branch version*
+```
+ CHANGELOG.md | 22 +++++++++++++---------
+ 1 file changed, 13 insertions(+), 9 deletions(-)
+```
+
+## [v5.0.4](https://github.com/softspring/mime-translatable/releases/tag/v5.0.4)
+
+*Nothing has changed since last v5.0.3 version*
+
+## [v5.0.3](https://github.com/softspring/mime-translatable/releases/tag/v5.0.3)
+
+*Nothing has changed since last v5.0.2 version*
+
+## [v5.0.2](https://github.com/softspring/mime-translatable/releases/tag/v5.0.2)
+
+*Nothing has changed since last v5.0.1 version*
+
+## [v5.0.1](https://github.com/softspring/mime-translatable/releases/tag/v5.0.1)
+
+*Nothing has changed since last v5.0.0 version*
+
+## [v5.0.0](https://github.com/softspring/mime-translatable/releases/tag/v5.0.0)
+
+*Previous versions are not in changelog*
