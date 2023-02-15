@@ -1,5 +1,22 @@
 # CHANGELOG
 
+## [v5.0.5](https://github.com/softspring/mime-translatable/releases/tag/v5.0.5)
+
+### Upgrading
+
+*Nothing to do on upgrading*
+
+### Commits
+
+- [55dc43a](https://github.com/softspring/mime-translatable/commit/55dc43a49e66eb8ab4641164cbab2143da18f195): Update changelog
+
+### Changes
+
+```
+ CHANGELOG.md | 22 +++++++++++++---------
+ 1 file changed, 13 insertions(+), 9 deletions(-)
+```
+
 ## [v5.0.4](https://github.com/softspring/mime-translatable/releases/tag/v5.0.4)
 
 *Nothing has changed since last v5.0.3 version*
