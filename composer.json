@@ -12,9 +12,9 @@
         "symfony/twig-bridge": "^6.4|^7.3"
     },
     "require-dev": {
-        "friendsofphp/php-cs-fixer": "^3.68",
-        "phpstan/phpstan": "^1.10",
-        "rector/rector": "^1.0"
+        "friendsofphp/php-cs-fixer": "^3.89",
+        "phpstan/phpstan": "^2.1",
+        "rector/rector": "^2.2"
     },
     "suggest": {
         "sofspring/mailer-bundle": "Manage and extends application mails in admin",
