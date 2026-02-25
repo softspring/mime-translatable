@@ -1,45 +1,50 @@
 {
     "name": "softspring/mime-translatable",
     "description": "This library extends symfony mime component providing a translatable email",
-    "type": "library",
     "license": "AGPL-3.0-or-later",
-    "minimum-stability": "dev",
-    "prefer-stable": true,
+    "type": "library",
     "require": {
         "php": ">=8.4",
-        "symfony/mime": "^6.4|^7.4|^8.0",
-        "symfony/translation": "^6.4|^7.4|^8.0",
-        "symfony/twig-bridge": "^6.4|^7.4|^8.0"
+        "symfony/mime": "^6.4 || ^7.4 || ^8.0",
+        "symfony/translation": "^6.4 || ^7.4 || ^8.0",
+        "symfony/twig-bridge": "^6.4 || ^7.4 || ^8.0"
     },
     "require-dev": {
         "ergebnis/composer-normalize": "^2.50",
-        "friendsofphp/php-cs-fixer": "^3.89",
+        "friendsofphp/php-cs-fixer": "^3.94",
         "phpstan/phpstan": "^2.1",
-        "rector/rector": "^2.2"
+        "rector/rector": "^2.3"
     },
     "suggest": {
         "sofspring/mailer-bundle": "Manage and extends application mails in admin",
         "twig/cssinliner-extra": "Use css inliner",
         "twig/inky-extra": "Use Inky mailing templates"
     },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
     "autoload": {
         "psr-4": {
             "Softspring\\Component\\MimeTranslatable\\": "src/"
         }
     },
     "config": {
-        "sort-packages": true,
         "allow-plugins": {
             "ergebnis/composer-normalize": true
+        },
+        "sort-packages": true
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-6.0": "6.0.x-dev"
         }
     },
     "scripts": {
         "fix": [
             "vendor/bin/rector process src tests",
-            "vendor/bin/php-cs-fixer fix --diff",
+            "vendor/bin/php-cs-fixer fix",
             "composer normalize"
         ],
-        "run-tests" : [
+        "run-tests": [
             "composer validate --strict --no-check-lock --ansi",
             "XDEBUG_MODE=coverage vendor/bin/phpunit",
             "vendor/bin/rector process src tests --dry-run",
