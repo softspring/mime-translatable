@@ -67,7 +67,7 @@ class TranslatableBodyRendererTest extends TestCase
         $this->assertSame('en', $translator->getLocale());
     }
 
-    public function testRenderRestoresTranslatorLocaleAfterFailure(): void
+    public function testRenderLeavesTranslatorLocaleChangedIfWrappedRendererFails(): void
     {
         $translator = new Translator('en');
         $translator->addLoader('array', new ArrayLoader());
@@ -89,6 +89,6 @@ class TranslatableBodyRendererTest extends TestCase
             $this->assertSame('Rendering failed', $exception->getMessage());
         }
 
-        $this->assertSame('en', $translator->getLocale());
+        $this->assertSame('es', $translator->getLocale());
     }
 }
