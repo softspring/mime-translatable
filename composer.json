@@ -13,10 +13,11 @@
         "ergebnis/composer-normalize": "^2.50",
         "friendsofphp/php-cs-fixer": "^3.94",
         "phpstan/phpstan": "^2.1",
+        "phpunit/phpunit": "^12.5",
         "rector/rector": "^2.3"
     },
     "suggest": {
-        "sofspring/mailer-bundle": "Manage and extends application mails in admin",
+        "softspring/mailer-bundle": "Manage and extends application mails in admin",
         "twig/cssinliner-extra": "Use css inliner",
         "twig/inky-extra": "Use Inky mailing templates"
     },
