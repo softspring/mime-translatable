@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Softspring\Component\MimeTranslatable;
 
 use Symfony\Contracts\Translation\TranslatorInterface;
