@@ -6,7 +6,7 @@
 [![PHP Version](https://img.shields.io/packagist/dependency-v/softspring/mime-translatable/php?style=flat-square)](https://github.com/softspring/mime-translatable/blob/6.0/composer.json)
 [![Downloads](https://img.shields.io/packagist/dt/softspring/mime-translatable?style=flat-square)](https://packagist.org/packages/softspring/mime-translatable)
 [![CI](https://img.shields.io/github/actions/workflow/status/softspring/mime-translatable/ci.yml?branch=6.0&style=flat-square&label=CI)](https://github.com/softspring/mime-translatable/actions/workflows/ci.yml)
-[![Coverage](https://img.shields.io/codecov/c/github/softspring/mime-translatable?branch=6.0&style=flat-square)](https://codecov.io/gh/softspring/mime-translatable)
+[![Coverage](https://img.shields.io/codecov/c/github/softspring/mime-translatable?branch=6.0&style=flat-square)](https://app.codecov.io/gh/softspring/mime-translatable/tree/6.0)
 
 This component adds translation-aware email helpers on top of Symfony Mime and TemplatedEmail.
 
